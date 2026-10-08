@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Clinical data and checkpoints (source does not allow redistribution)
+data/
+models/

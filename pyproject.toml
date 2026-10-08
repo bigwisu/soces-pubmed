@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soces-pubmed"
+version = "0.1.0"
+description = "Fast, non-autoregressive System 1 decision engine for PubMed and clinical text"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.48.0",
+    "safetensors>=0.4.0",
+    "huggingface_hub>=0.20.0",
+    "numpy>=1.20.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.0",
+    "biopython>=1.80",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.setuptools]
+packages = ["soces_pubmed"]
